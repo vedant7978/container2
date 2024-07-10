@@ -10,7 +10,7 @@ steps:
       - '-c'
       - |
         echo "Step 1: obtaining cluster credentials..."
-        gcloud container clusters get-credentials k8s-vedant-container --zone us-east1-b --project ${PROJECT_ID}
+        gcloud container clusters get-credentials k8s-vedant-container --zone us-central1-c --project ${PROJECT_ID}
 
 
   - id: Build
