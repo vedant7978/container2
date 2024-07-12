@@ -14,7 +14,7 @@ const FILE_DIRECTORY = process.env.FILE_DIRECTORY || "../";
 
 console.log({ FILE_DIRECTORY })
 console.log({ PORT })
-console.log("cicd testing.............")
+console.log("cicd testing_2.............")
 
 
 app.post("/parser", (req, res) => {
