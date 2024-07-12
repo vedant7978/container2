@@ -39,7 +39,7 @@ steps:
     args:
       - "-c"
       - |
-        echo "Step 4: Updating pod by setting new image...."
+        echo "Step 4: Updating pod by setting new image and applying deployment after checking if pod is exists....."
         echo "${PROJECT_ID}"
         kubectl get deployment container2-deployment || kubectl apply -f deployment-container2.yaml
         kubectl set image deployment/container2-deployment k8s-container2=us-central1-docker.pkg.dev/${PROJECT_ID}/k8s-vedant/k8-container2:${SHORT_SHA}
