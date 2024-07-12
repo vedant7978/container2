@@ -15,15 +15,6 @@ const FILE_DIRECTORY = process.env.FILE_DIRECTORY || "../";
 console.log({ FILE_DIRECTORY })
 console.log({ PORT })
 console.log("cicd testing.............")
-console.log("cicd testing.33333............")
-console.log("cicd testing.3334444433............")
-console.log("cicd testing.33344444333333333............")
-console.log("cicd testing.33344444333333334443............")
-console.log("cicd testing.333444443333333344438888888............")
-console.log("cicd testing.33344444333333334443............")
-console.log("cicd testing.33344444333333334443 non functional............")
-console.log("cicd testing.33344444333333334443 non functional1............")
-console.log("cicd testing.33344444333333334443 non functional9............")
 
 
 app.post("/parser", (req, res) => {
